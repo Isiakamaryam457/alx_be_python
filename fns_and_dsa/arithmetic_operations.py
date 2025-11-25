@@ -23,10 +23,11 @@ def perform_operation(num1, num2, operation):
     elif operation == 'multiply':
         result = num1 * num2
         return result
+
     elif operation == 'divide':
         if num2 == 0:
             return "Error, cannot divide by zero"
-        result = mum1 / num2
+        result = num1 / num2
         return result
     else:
         return "Error: Invalid operation. Please choose add, subtract, multiply, or divide."
